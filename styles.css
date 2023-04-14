@@ -1,0 +1,43 @@
+body {
+    display: flex;    
+    padding: 50px;
+}
+
+.calculator {
+    display: flex;
+    background-color: gray;
+    max-width: 500px;
+    max-height: 625px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.display {
+    min-width: 490px;
+    min-height: 30px;
+    font-size: xx-large;
+    color: white;
+    background-color: darkslategrey;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    min-width: 117px;
+    min-height: 110px;
+    font-size: xx-large;
+    margin: 2px;
+}
+
+.equals,
+.back{
+    background-color: green;
+    min-width: 240px;
+}
+
+.sum,
+.sub,
+.mul,
+.div {
+    background-color: yellow;
+}
